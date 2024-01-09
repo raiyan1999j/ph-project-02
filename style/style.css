@@ -150,3 +150,69 @@ ul{
     background:linear-gradient(-90deg, rgba(241, 91, 34, 0.00) 0% ,#F15B22 100%);
     color:white;
 }
+/* ========== */
+/* footerArea */
+/* ========== */
+.footerArea{
+    background:#2f3640;
+    color:#ecf0f1;
+}
+.footerArea .row{
+    padding:130px 0;
+}
+.footerArea .footerBox{
+    display:flex;
+    justify-content: space-between;
+}
+.footerArea h2{
+    color:#ecf0f1;
+}
+.footerArea .textBox{
+    width:485px;
+    margin:16px 0 24px 0;
+}
+.footerArea table{
+    font-size:16px;
+    font-weight:400;
+    line-height:26px;
+}
+.footerArea table td{
+    padding-bottom:10px;
+}
+.footerArea .footerBox .footerList{
+    margin-top:22px;
+}
+.footerArea .footerBox .footerList li{
+    float:left;
+    margin-right:15px;
+}
+.footerArea .footerBox .footerList li:hover{
+    box-shadow: 0 8px 10px black;
+}
+.footerArea .footerBox div:nth-child(2) h2{
+    font-size: 25px;
+    font-weight: 600;
+}
+.footerArea .footerBox .inputBox{
+    width: 325px;
+    height:64px;
+    margin:31px 0 16px 0;
+}
+.footerArea .footerBox .inputBox input{
+    border:1px solid white;
+    border-radius:5px;
+    height:100%;
+    width:100%;
+    background:transparent;
+}
+.footerArea .footerBox .inputBox input::placeholder{
+    padding: 21px 0 21px 21px;
+    color:#ecf0f1;
+    font-size:18px;
+    font-weight:400;
+}
+.footerArea .footerBox .btn{
+    padding:20px 36px;
+    color:#F15B22;
+    margin-top:16px;
+}
