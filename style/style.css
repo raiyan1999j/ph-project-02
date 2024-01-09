@@ -23,6 +23,7 @@ body{
     border:none;
     border-radius: 5px;
     transition:ease-in 0.3s;
+    text-transform: capitalize;
 }
 .row{
     width:1140px;
@@ -128,4 +129,24 @@ ul{
 }
 .skillArea .skillBox div h3{
     margin:24p 0 10px 0;
+}
+/* ========== */
+/* contactArea */
+/* ========== */
+.contactArea .row{
+    padding:59px 0 59px 64px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),url('../image/watch.png');
+}
+.contactArea h2{
+    width: 459px;
+    margin-bottom:24px;
+}
+.contactArea .btn{
+    padding:21px 36px;
+    color:#F15B22;
+}
+.contactArea .btn:hover{
+    background:linear-gradient(-90deg, rgba(241, 91, 34, 0.00) 0% ,#F15B22 100%);
+    color:white;
 }
