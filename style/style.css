@@ -5,7 +5,73 @@
 }
 body{
     font-family: 'Work Sans', sans-serif;
+    color:#353b48;
+    text-transform:capitalize;
 }
 /* ========== */
 /* reuseable-code */
 /* ========== */
+.textBox{
+    font-size:16px;
+    font-weight:400;
+    line-height: 26px;
+}
+.btn{
+    padding:21px 20px 25px 26px;
+    font-size:20px;
+    font-weight: 600;
+    border:none;
+    border-radius: 5px;
+    transition:ease-in 0.3s;
+}
+.row{
+    width:1140px;
+    margin:0 auto;
+}
+.row::after,
+.row::before{
+    content:'';
+    display:table;
+}
+.row::after{
+    clear:both;
+}
+section{
+    margin-top:124px;
+}
+h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+h2,h3{
+    color:#192a56;
+}
+/* ========== */
+/* headerArea */
+/* ========== */
+.headerArea{
+    margin-top:0px;
+    background:url('../image/banner2.png');
+}
+.headerArea .row{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    text-align:right;
+    padding:216px 0 167px 0;
+}
+.headerArea h1,
+.headerArea .textBox{
+    width:525px;
+}
+.headerArea .row .textBox{
+    margin:24px 0 32px 0;
+}
+.headerArea .row .btn{
+    background:#F15B22;
+    color:#ecf0f1;
+}
+.headerArea .row .btn:hover{
+    background:#ecf0f1;
+    color:#F15B22;
+}
