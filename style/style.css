@@ -46,6 +46,11 @@ h1{
 h2,h3{
     color:#192a56;
 }
+ul{
+    list-style-type:none;
+    padding:0px;
+    margin: 0px;
+}
 /* ========== */
 /* headerArea */
 /* ========== */
@@ -74,4 +79,28 @@ h2,h3{
 .headerArea .row .btn:hover{
     background:#ecf0f1;
     color:#F15B22;
+}
+/* ========== */
+/* articleArea */
+/* ========== */
+.articleArea .articleBox{
+    display:flex;
+    flex-direction: row;
+}
+.articleArea .articleBox div:nth-child(2){
+    transform: translateY(230px);
+    margin-left:87px;
+}
+.articleArea h2{
+    font-size:40px;
+    font-weight:700;
+    width:288px;
+}
+.articleArea .articleBox .textBox{
+    width:416px;
+    margin:24px 0 16px 0;
+}
+.articleArea .articleList li span{
+    color:#55efc4;
+    transform:translateY(5px);
 }
